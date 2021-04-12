@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div.main {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding-bottom: 5%;
+}
+
+div.connect {
+    margin-top: 15%;
+    flex: 1;
+}
+
+div.connect h3 {
+    color: blue;
+    font-size: 3.8rem;
+    padding-left: 150px;
+}
+
+div.connect p {
+    font-size: 1.5rem;
+    padding-top: 1%;
+    padding-left: 150px;
+    font-size: 29px;
+}
+
+
+div.sign {
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 15px 30px;
+    width: 30vw;
+    height: 55vh;
+    margin-top: 10%;
+    margin-right: 13%;
+    border-radius: 10px;
+}
+
+input.mail {
+    width: 350px;
+    margin: 4px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 1rem;
+    outline-width: 1px;
+}
+
+input.btn-1 {
+    width: 350px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    padding: 15px;
+    margin-left: 5px;
+    background: rgb(95, 95, 226);
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+   outline: none;
+   font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 95, 226);
+    text-align: center;
+    margin-left: 120px;
+}
+
+
+hr {
+    margin-top: 5%;
+    color: rgb(209, 198, 198);
+}
+
+
+input.btn-2 {
+    
+    width: 250px;
+    margin: 10px;
+    margin-top: 32px;
+    padding: 13px;
+    margin-left: 50px;
+    background: rgb(45, 168, 41);
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+   outline: none;
+   font-size: 1.2rem;
+}
+
+
+div.page a {
+    text-decoration: none;
+    color: black;
+}
+
+div.page {
+    padding-bottom: 5%;
+    background: #f0f0f0;
+    padding-left: 700px;
+}
+
